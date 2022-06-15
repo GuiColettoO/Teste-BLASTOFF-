@@ -1,0 +1,158 @@
+.geral{
+	width: 880px;
+	height: 626px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.a{
+	border: 2px solid black;
+	margin-top: 30px;
+	height: 150px;
+}
+
+.a p{
+	text-align: center;
+	padding-top: 45px;
+	font-size: 20px;
+}
+
+.b{
+	border: 2px solid black;
+    height: 220px;
+    margin-top: 30px;
+    width: 550px;
+    position: absolute;
+}
+
+.b p{
+	text-align: center;
+	padding-top: 88px;
+	font-size: 20px;
+}
+
+.c{
+	border: 2px solid black;
+    height: 139px;
+    width: 245px;
+    position: absolute;
+    margin-top: 280px;
+}
+
+.c p{
+	text-align: center;
+    padding-top: 37px;
+    font-size: 20px;
+}
+
+.d{
+    border: 2px solid black;
+    height: 139px;
+    width: 245px;
+    position: absolute;
+    margin-left: 306px;
+    margin-top: 280px;
+}
+
+.d p{
+	text-align: center;
+    padding-top: 37px;
+    font-size: 20px;
+}
+
+.e{
+    border: 2px solid black;
+    height: 389px;
+    margin-top: 30px;
+    width: 273px;
+    position: absolute;
+    margin-left: 604px;
+}
+
+.e p{
+	text-align: center;
+    padding-top: 152px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 360px){
+	.geral{
+		width: 210px;
+		height: 1080px;
+		margin-left: 2px;
+		margin-right: 200px;
+		position: absolute;
+	}
+
+	.a{
+		border: 2px solid black;
+		margin-top: 40px;
+		height: 240px;
+		width: 100%;
+		position: absolute;
+	}
+
+	.a p{
+		text-align: center;
+		padding-top: 85px;
+		font-size: 20px;
+	}
+
+	.b{
+		border: 2px solid black;
+		margin-top: 270px;
+		height: 240px;
+		width: 100%;
+		position: absolute;
+	}
+
+	.b p{
+		text-align: center;
+		padding-top: 75px;
+		font-size: 20px;
+	}
+
+	.c{
+		border: 2px solid black;
+    	height: 240px;
+    	width: 40%;
+    	position: absolute;
+    	margin-top: 540px;
+    	display: inline-block;
+	}
+
+	.c p{
+		text-align: center;
+    	padding-top: 85px;
+    	font-size: 20px;
+	}
+
+	.d {
+    	margin-left: auto;
+    	width: 40%;
+    	margin-top: 540px;
+    	height: 240px;
+    	position: initial;
+	}
+
+	.d p{
+		text-align: center;
+    	padding-top: 85px;
+    	font-size: 20px;
+	}
+
+	.e{
+		margin-left: auto;
+		border: 2px solid black;
+		margin-top: 40px;
+		height: 240px;
+		width: 100%;
+		position: absolute;
+	}
+
+	.e p{
+		text-align: center;
+    	padding-top: 85px;
+    	font-size: 20px;
+	}
+}

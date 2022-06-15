@@ -1,0 +1,6 @@
+Para colocar todos os itens na vertical pelo css eu colocaria:
+body {
+	justify-content: center;
+	display: flex;
+}
+.
